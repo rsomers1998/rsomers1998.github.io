@@ -1,0 +1,38 @@
+#background-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: url('images/Code.jpg') 0 0 no-repeat, radial-gradient(ellipse at center, rgba(0,0,0,0.4) 20%,rgba(0,0,0,1) 100%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+}
+
+#logo {
+    margin: auto;
+}
+
+.flex-across {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin: auto;
+    width: 30%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+    display: flex;
+}
+
+.container h2 {
+    margin: auto;
+}
