@@ -1,13 +1,13 @@
 html, body {
     min-height: 100%;
 }
+
 body {
     background: rgb(0,0,87);
     background: linear-gradient(31deg, rgb(54, 54, 54) 0%, rgb(17, 17, 17) 100%); 
 
     color: white;
     margin: none;
-    /* height: 100vh; */
 }
 
 h1 {
@@ -41,7 +41,7 @@ nav {
 .links a {
     font-family: 'Roboto Thin', sans-serif;
     color: white;
-    margin: auto
+    margin: auto;
 }
 
 #main_content {
@@ -54,6 +54,21 @@ nav {
     margin-left: 20%;
     margin-right: 20%;
     font-size: xx-large;
+}
+
+.socials {
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.socials a {
+    color: white;
+    margin: auto;
+}
+
+.fa, .fab, .far {
+    font-size: 50px;
 }
 
 footer {
