@@ -42,6 +42,7 @@ nav {
     font-family: 'Roboto Thin', sans-serif;
     color: white;
     margin: auto;
+    font-size: 18.72px;
 }
 
 #main_content {
@@ -76,4 +77,16 @@ footer {
     color: white;
     position: fixed;
     bottom: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .links a {
+        font-size: 25px;
+    }
+
+    #main_content p {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 50px;
+    }
 }
