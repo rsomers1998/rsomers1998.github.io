@@ -10,7 +10,7 @@ body {
     margin: none;
 }
 
-h1 {
+h1, p, a {
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -21,51 +21,46 @@ h1 {
     width: 100%;
 }
 
-.logo {
-    margin-left: 30px;
-}
-
 a {
     text-decoration: none;
 }
 
 nav {
-    display: flex;
-}
-
-.links {
-    width: 60%;
-    margin-left: auto;
-}
-
-.links a {
-    font-family: 'Roboto Thin', sans-serif;
-    color: white;
-    margin: auto;
-    font-size: 18.72px;
-}
-
-#main_content {
-    margin-top: 30vh;
-    font-family: 'Roboto', sans-serif;
+    width: 30%;
     text-align: center;
 }
 
+#display_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#tag_line {
+    color: lightgrey;
+}
+
+.links a {
+    margin: 5px;
+}
+
+#main_content {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 #main_content p {
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: xx-large;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
 }
 
-.socials {
-    width: 60%;
-    margin: auto;
-    margin-top: 10vh;
-}
-
-.socials a {
-    color: white;
-    margin: auto;
+#main_content h3 {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .fa, .fab, .far {
@@ -80,13 +75,16 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    .links a {
-        font-size: 25px;
+
+    .flex-across {
+        flex-direction: column;
     }
 
-    #main_content p {
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 50px;
+    nav {
+        width: 100%;
+    }
+
+    #main_content {
+        width: 100%;
     }
 }
