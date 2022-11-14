@@ -61,6 +61,7 @@ nav {
 #main_content h3 {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
 }
 
 .fa, .fab, .far {
@@ -73,6 +74,25 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+.publication {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.pub_title {
+    font-size: larger;
+}
+
+.pub_authors {
+    color: grey;
+}
+
+.pub_doi_link a {
+    color: lightgrey;
+}
+
 
 @media only screen and (max-width: 1000px) {
 
